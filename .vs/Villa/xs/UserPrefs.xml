@@ -1,26 +1,23 @@
-﻿<Properties StartupConfiguration="{90032721-7EFD-44BD-9DCD-78E265CDE146}|https">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{90032721-7EFD-44BD-9DCD-78E265CDE146}|https">
   <MonoDevelop.Ide.ItemProperties.Villa__API PreferredExecutionTarget="/Applications/Microsoft Edge.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workbench ActiveDocument="Villa_API/Controllers/VillaAPIController.cs">
     <Files>
       <File FileName="Villa_API/Controllers/VillaAPIController.cs" Line="20" Column="2" />
-      <File FileName="Villa_API/Program.cs" Line="25" Column="1" />
-      <File FileName="Villa_API/Models/DTO/VillaDto.cs" Line="7" Column="41" />
-      <File FileName="Villa_API/Models/Villa.cs" Line="8" Column="42" />
-      <File FileName="Villa_API/Data/VillaStore.cs" Line="8" Column="41" />
+      <File FileName="Villa_API/Program.cs" />
+      <File FileName="Villa_API/Models/DTO/VillaDto.cs" />
+      <File FileName="Villa_API/Models/Villa.cs" />
+      <File FileName="Villa_API/Data/VillaStore.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Villa" expanded="True">
             <Node name="Villa_API" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="VillaAPIController.cs" selected="True" />
-              </Node>
+              <Node name="Controllers" expanded="True" />
               <Node name="Data" expanded="True" />
               <Node name="Models" expanded="True">
                 <Node name="DTO" expanded="True" />
@@ -33,5 +30,4 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

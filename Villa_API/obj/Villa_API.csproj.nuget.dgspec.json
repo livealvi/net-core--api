@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/alvi/Documents/WebDev/net-core--api/Villa/Villa_API/Villa_API.csproj": {}
+    "/Users/alvi/Documents/WebDev/net-core--api/Villa_API/Villa_API.csproj": {}
   },
   "projects": {
-    "/Users/alvi/Documents/WebDev/net-core--api/Villa/Villa_API/Villa_API.csproj": {
+    "/Users/alvi/Documents/WebDev/net-core--api/Villa_API/Villa_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/alvi/Documents/WebDev/net-core--api/Villa/Villa_API/Villa_API.csproj",
+        "projectUniqueName": "/Users/alvi/Documents/WebDev/net-core--api/Villa_API/Villa_API.csproj",
         "projectName": "Villa_API",
-        "projectPath": "/Users/alvi/Documents/WebDev/net-core--api/Villa/Villa_API/Villa_API.csproj",
+        "projectPath": "/Users/alvi/Documents/WebDev/net-core--api/Villa_API/Villa_API.csproj",
         "packagesPath": "/Users/alvi/.nuget/packages/",
-        "outputPath": "/Users/alvi/Documents/WebDev/net-core--api/Villa/Villa_API/obj/",
+        "outputPath": "/Users/alvi/Documents/WebDev/net-core--api/Villa_API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/alvi/.nuget/NuGet/NuGet.Config"
