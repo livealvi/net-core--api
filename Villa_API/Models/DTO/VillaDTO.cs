@@ -1,10 +1,16 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
+
 namespace Villa_API.Models.DTO
 {
 	public class VillaDto
 	{
         public int Id { get; set; }
+        [Required]
+        [MaxLength(30)]
         public string Name { get; set; }
+        public int Occupancy { get; set; }
+        public int SqureFeet { get; set; }
     }
 }
 
