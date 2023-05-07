@@ -25,7 +25,7 @@ namespace Villa_API.Data
                     Occupancy = 5,
                     Rate = 200,
                     SqureFeet = 500,
-                    Ameninty = "",
+                    Amenity = "",
                     CreatedDate = DateTime.Now
                 },
                 new Villa()
@@ -37,7 +37,7 @@ namespace Villa_API.Data
                     Occupancy = 7,
                     Rate = 500,
                     SqureFeet = 1500,
-                    Ameninty = "",
+                    Amenity = "",
                     CreatedDate = DateTime.Now
                 },
                 new Villa()
@@ -49,7 +49,7 @@ namespace Villa_API.Data
                     Occupancy = 3,
                     Rate = 100,
                     SqureFeet = 2000,
-                    Ameninty = "",
+                    Amenity = "",
                     CreatedDate = DateTime.Now
                 },
                 new Villa()
@@ -61,7 +61,7 @@ namespace Villa_API.Data
                     Occupancy = 10,
                     Rate = 600,
                     SqureFeet = 580,
-                    Ameninty = "",
+                    Amenity = "",
                     CreatedDate = DateTime.Now
                 },
                 new Villa()
@@ -73,7 +73,7 @@ namespace Villa_API.Data
                     Occupancy = 8,
                     Rate = 900,
                     SqureFeet = 900,
-                    Ameninty = "",
+                    Amenity = "",
                     CreatedDate = DateTime.Now
                 }
 
