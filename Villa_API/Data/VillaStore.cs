@@ -1,5 +1,6 @@
 ﻿using System;
 using Villa_API.Models;
+using Villa_API.Models.DTO;
 
 namespace Villa_API.Data
 {

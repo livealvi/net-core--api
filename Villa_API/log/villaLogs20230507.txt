@@ -1,0 +1,134 @@
+2023-05-07 06:07:28.603 +06:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-05-07 06:07:28.644 +06:00 [DBG] Hosting starting
+2023-05-07 06:07:28.845 +06:00 [INF] Now listening on: https://localhost:7101
+2023-05-07 06:07:28.846 +06:00 [INF] Now listening on: http://localhost:5120
+2023-05-07 06:07:28.846 +06:00 [DBG] Loaded hosting startup assembly Villa_API
+2023-05-07 06:07:28.847 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-05-07 06:07:28.847 +06:00 [INF] Hosting environment: Development
+2023-05-07 06:07:28.847 +06:00 [INF] Content root path: /Users/alvi/Documents/WebDev/net-core--api/Villa_API
+2023-05-07 06:07:28.847 +06:00 [DBG] Hosting started
+2023-05-07 06:07:28.875 +06:00 [DBG] Connection id "0HMQEHS5T6P51" accepted.
+2023-05-07 06:07:28.875 +06:00 [DBG] Connection id "0HMQEHS5T6P51" started.
+2023-05-07 06:07:29.872 +06:00 [DBG] Connection id "0HMQEHS5T6P51" received FIN.
+2023-05-07 06:07:29.875 +06:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-05-07 06:07:29.888 +06:00 [DBG] Connection id "0HMQEHS5T6P51" stopped.
+2023-05-07 06:07:29.890 +06:00 [DBG] Connection id "0HMQEHS5T6P51" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-05-07 06:07:30.011 +06:00 [DBG] Connection id "0HMQEHS5T6P52" accepted.
+2023-05-07 06:07:30.013 +06:00 [DBG] Connection id "0HMQEHS5T6P52" started.
+2023-05-07 06:07:30.014 +06:00 [DBG] Connection id "0HMQEHS5T6P53" accepted.
+2023-05-07 06:07:30.015 +06:00 [DBG] Connection id "0HMQEHS5T6P53" started.
+2023-05-07 06:07:30.161 +06:00 [DBG] Connection 0HMQEHS5T6P52 established using the following protocol: "Tls12"
+2023-05-07 06:07:30.169 +06:00 [DBG] Connection 0HMQEHS5T6P53 established using the following protocol: "Tls12"
+2023-05-07 06:07:30.217 +06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7101/swagger/index.html - -
+2023-05-07 06:07:30.217 +06:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-05-07 06:07:30.228 +06:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-05-07 06:07:30.228 +06:00 [DBG] Request did not match any endpoints
+2023-05-07 06:07:30.276 +06:00 [DBG] Connection id "0HMQEHS5T6P52" completed keep alive response.
+2023-05-07 06:07:30.277 +06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7101/swagger/index.html - - - 200 - text/html;charset=utf-8 60.9790ms
+2023-05-07 06:07:30.317 +06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7101/robots.txt application/x-www-form-urlencoded -
+2023-05-07 06:07:30.317 +06:00 [DBG] No candidates found for the request path '/robots.txt'
+2023-05-07 06:07:30.317 +06:00 [DBG] Request did not match any endpoints
+2023-05-07 06:07:30.319 +06:00 [DBG] The request path  does not match the path filter
+2023-05-07 06:07:30.320 +06:00 [DBG] Connection id "0HMQEHS5T6P52" completed keep alive response.
+2023-05-07 06:07:30.320 +06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7101/robots.txt application/x-www-form-urlencoded - - 404 0 - 3.6470ms
+2023-05-07 06:07:30.763 +06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7101/swagger/v1/swagger.json - -
+2023-05-07 06:07:30.763 +06:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-05-07 06:07:30.763 +06:00 [DBG] Request did not match any endpoints
+2023-05-07 06:07:30.830 +06:00 [DBG] Connection id "0HMQEHS5T6P52" completed keep alive response.
+2023-05-07 06:07:30.830 +06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7101/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 66.8036ms
+2023-05-07 06:07:39.249 +06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7101/api/villaapi - -
+2023-05-07 06:07:39.255 +06:00 [DBG] 1 candidate(s) found for the request path '/api/villaapi'
+2023-05-07 06:07:39.258 +06:00 [DBG] Endpoint 'Villa_API.Controllers.VillaAPIController.GetVillas (Villa_API)' with route pattern 'api/villaapi' is valid for the request path '/api/villaapi'
+2023-05-07 06:07:39.260 +06:00 [DBG] Request matched endpoint 'Villa_API.Controllers.VillaAPIController.GetVillas (Villa_API)'
+2023-05-07 06:07:39.260 +06:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-05-07 06:07:39.262 +06:00 [INF] Executing endpoint 'Villa_API.Controllers.VillaAPIController.GetVillas (Villa_API)'
+2023-05-07 06:07:39.273 +06:00 [INF] Route matched with {action = "GetVillas", controller = "VillaAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Villa_API.Models.VillaDTO]] GetVillas() on controller Villa_API.Controllers.VillaAPIController (Villa_API).
+2023-05-07 06:07:39.274 +06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-05-07 06:07:39.274 +06:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-05-07 06:07:39.274 +06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-05-07 06:07:39.274 +06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-05-07 06:07:39.274 +06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-05-07 06:07:39.275 +06:00 [DBG] Executing controller factory for controller Villa_API.Controllers.VillaAPIController (Villa_API)
+2023-05-07 06:07:39.276 +06:00 [DBG] Executed controller factory for controller Villa_API.Controllers.VillaAPIController (Villa_API)
+2023-05-07 06:07:39.276 +06:00 [INF] Getting all villas
+2023-05-07 06:07:39.278 +06:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-05-07 06:07:39.279 +06:00 [DBG] Attempting to select an output formatter based on Accept header '["application/json"]'.
+2023-05-07 06:07:39.280 +06:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-05-07 06:07:39.280 +06:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Villa_API.Models.VillaDTO, Villa_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-05-07 06:07:39.353 +06:00 [INF] Executed action Villa_API.Controllers.VillaAPIController.GetVillas (Villa_API) in 76.631ms
+2023-05-07 06:07:39.353 +06:00 [INF] Executed endpoint 'Villa_API.Controllers.VillaAPIController.GetVillas (Villa_API)'
+2023-05-07 06:07:39.353 +06:00 [DBG] Connection id "0HMQEHS5T6P52" completed keep alive response.
+2023-05-07 06:07:39.353 +06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7101/api/villaapi - - - 200 191 application/json;+charset=utf-8 104.3150ms
+2023-05-07 06:07:40.338 +06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7101/api/villaapi - -
+2023-05-07 06:07:40.338 +06:00 [DBG] 1 candidate(s) found for the request path '/api/villaapi'
+2023-05-07 06:07:40.338 +06:00 [DBG] Endpoint 'Villa_API.Controllers.VillaAPIController.GetVillas (Villa_API)' with route pattern 'api/villaapi' is valid for the request path '/api/villaapi'
+2023-05-07 06:07:40.338 +06:00 [DBG] Request matched endpoint 'Villa_API.Controllers.VillaAPIController.GetVillas (Villa_API)'
+2023-05-07 06:07:40.338 +06:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-05-07 06:07:40.338 +06:00 [INF] Executing endpoint 'Villa_API.Controllers.VillaAPIController.GetVillas (Villa_API)'
+2023-05-07 06:07:40.339 +06:00 [INF] Route matched with {action = "GetVillas", controller = "VillaAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Villa_API.Models.VillaDTO]] GetVillas() on controller Villa_API.Controllers.VillaAPIController (Villa_API).
+2023-05-07 06:07:40.339 +06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-05-07 06:07:40.339 +06:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-05-07 06:07:40.339 +06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-05-07 06:07:40.339 +06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-05-07 06:07:40.339 +06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-05-07 06:07:40.339 +06:00 [DBG] Executing controller factory for controller Villa_API.Controllers.VillaAPIController (Villa_API)
+2023-05-07 06:07:40.339 +06:00 [DBG] Executed controller factory for controller Villa_API.Controllers.VillaAPIController (Villa_API)
+2023-05-07 06:07:40.339 +06:00 [INF] Getting all villas
+2023-05-07 06:07:40.339 +06:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-05-07 06:07:40.339 +06:00 [DBG] Attempting to select an output formatter based on Accept header '["application/json"]'.
+2023-05-07 06:07:40.340 +06:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-05-07 06:07:40.340 +06:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Villa_API.Models.VillaDTO, Villa_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-05-07 06:07:40.340 +06:00 [INF] Executed action Villa_API.Controllers.VillaAPIController.GetVillas (Villa_API) in 1.1075ms
+2023-05-07 06:07:40.340 +06:00 [INF] Executed endpoint 'Villa_API.Controllers.VillaAPIController.GetVillas (Villa_API)'
+2023-05-07 06:07:40.340 +06:00 [DBG] Connection id "0HMQEHS5T6P52" completed keep alive response.
+2023-05-07 06:07:40.340 +06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7101/api/villaapi - - - 200 191 application/json;+charset=utf-8 2.4715ms
+2023-05-07 06:07:54.332 +06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7101/api/villaapi - -
+2023-05-07 06:07:54.333 +06:00 [DBG] 1 candidate(s) found for the request path '/api/villaapi'
+2023-05-07 06:07:54.333 +06:00 [DBG] Endpoint 'Villa_API.Controllers.VillaAPIController.GetVillas (Villa_API)' with route pattern 'api/villaapi' is valid for the request path '/api/villaapi'
+2023-05-07 06:07:54.333 +06:00 [DBG] Request matched endpoint 'Villa_API.Controllers.VillaAPIController.GetVillas (Villa_API)'
+2023-05-07 06:07:54.333 +06:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-05-07 06:07:54.333 +06:00 [INF] Executing endpoint 'Villa_API.Controllers.VillaAPIController.GetVillas (Villa_API)'
+2023-05-07 06:07:54.333 +06:00 [INF] Route matched with {action = "GetVillas", controller = "VillaAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Villa_API.Models.VillaDTO]] GetVillas() on controller Villa_API.Controllers.VillaAPIController (Villa_API).
+2023-05-07 06:07:54.334 +06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-05-07 06:07:54.334 +06:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-05-07 06:07:54.334 +06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-05-07 06:07:54.334 +06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-05-07 06:07:54.334 +06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-05-07 06:07:54.334 +06:00 [DBG] Executing controller factory for controller Villa_API.Controllers.VillaAPIController (Villa_API)
+2023-05-07 06:07:54.334 +06:00 [DBG] Executed controller factory for controller Villa_API.Controllers.VillaAPIController (Villa_API)
+2023-05-07 06:07:54.334 +06:00 [INF] Getting all villas
+2023-05-07 06:07:54.334 +06:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-05-07 06:07:54.334 +06:00 [DBG] Attempting to select an output formatter based on Accept header '["application/json"]'.
+2023-05-07 06:07:54.334 +06:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-05-07 06:07:54.334 +06:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Villa_API.Models.VillaDTO, Villa_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-05-07 06:07:54.335 +06:00 [INF] Executed action Villa_API.Controllers.VillaAPIController.GetVillas (Villa_API) in 0.9926ms
+2023-05-07 06:07:54.335 +06:00 [INF] Executed endpoint 'Villa_API.Controllers.VillaAPIController.GetVillas (Villa_API)'
+2023-05-07 06:07:54.335 +06:00 [DBG] Connection id "0HMQEHS5T6P52" completed keep alive response.
+2023-05-07 06:07:54.335 +06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7101/api/villaapi - - - 200 191 application/json;+charset=utf-8 3.0976ms
+2023-05-07 06:08:01.912 +06:00 [INF] Request starting HTTP/1.1 GET https://localhost:7101/api/villaapi - -
+2023-05-07 06:08:01.913 +06:00 [DBG] 1 candidate(s) found for the request path '/api/villaapi'
+2023-05-07 06:08:01.913 +06:00 [DBG] Endpoint 'Villa_API.Controllers.VillaAPIController.GetVillas (Villa_API)' with route pattern 'api/villaapi' is valid for the request path '/api/villaapi'
+2023-05-07 06:08:01.913 +06:00 [DBG] Request matched endpoint 'Villa_API.Controllers.VillaAPIController.GetVillas (Villa_API)'
+2023-05-07 06:08:01.913 +06:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-05-07 06:08:01.913 +06:00 [INF] Executing endpoint 'Villa_API.Controllers.VillaAPIController.GetVillas (Villa_API)'
+2023-05-07 06:08:01.913 +06:00 [INF] Route matched with {action = "GetVillas", controller = "VillaAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Villa_API.Models.VillaDTO]] GetVillas() on controller Villa_API.Controllers.VillaAPIController (Villa_API).
+2023-05-07 06:08:01.913 +06:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-05-07 06:08:01.913 +06:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-05-07 06:08:01.913 +06:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-05-07 06:08:01.913 +06:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-05-07 06:08:01.914 +06:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-05-07 06:08:01.914 +06:00 [DBG] Executing controller factory for controller Villa_API.Controllers.VillaAPIController (Villa_API)
+2023-05-07 06:08:01.914 +06:00 [DBG] Executed controller factory for controller Villa_API.Controllers.VillaAPIController (Villa_API)
+2023-05-07 06:08:01.914 +06:00 [INF] Getting all villas
+2023-05-07 06:08:01.914 +06:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-05-07 06:08:01.914 +06:00 [DBG] Attempting to select an output formatter based on Accept header '["application/json"]'.
+2023-05-07 06:08:01.914 +06:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-05-07 06:08:01.914 +06:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Villa_API.Models.VillaDTO, Villa_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-05-07 06:08:01.914 +06:00 [INF] Executed action Villa_API.Controllers.VillaAPIController.GetVillas (Villa_API) in 0.7837ms
+2023-05-07 06:08:01.914 +06:00 [INF] Executed endpoint 'Villa_API.Controllers.VillaAPIController.GetVillas (Villa_API)'
+2023-05-07 06:08:01.914 +06:00 [DBG] Connection id "0HMQEHS5T6P52" completed keep alive response.
+2023-05-07 06:08:01.915 +06:00 [INF] Request finished HTTP/1.1 GET https://localhost:7101/api/villaapi - - - 200 191 application/json;+charset=utf-8 2.4822ms
