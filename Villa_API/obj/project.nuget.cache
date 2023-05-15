@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "WbpCGhrYxrrtM4iNUX3lwn2qGGSXeNnlo3dUASTEq2SDsQWbKAfY9XUOE3ACbiq5OiIYqqB0oL46rW09BJrjuw==",
+  "dgSpecHash": "jfRPVdzvtGDHD/2W6FOyNJKHot9c7+iJnRi19fMIuV16zOAsTGRslLXw7x+kJaJJ9jSXFovvW80Ypm6hVDjUqQ==",
   "success": true,
   "projectFilePath": "/Users/alvi/Documents/WebDev/net-core--api/Villa_API/Villa_API.csproj",
   "expectedPackageFiles": [
+    "/Users/alvi/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
+    "/Users/alvi/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "/Users/alvi/.nuget/packages/azure.core/1.24.0/azure.core.1.24.0.nupkg.sha512",
     "/Users/alvi/.nuget/packages/azure.identity/1.6.0/azure.identity.1.6.0.nupkg.sha512",
+    "/Users/alvi/.nuget/packages/bogus/34.0.2/bogus.34.0.2.nupkg.sha512",
     "/Users/alvi/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/alvi/.nuget/packages/microsoft.aspnetcore.jsonpatch/7.0.4/microsoft.aspnetcore.jsonpatch.7.0.4.nupkg.sha512",
     "/Users/alvi/.nuget/packages/microsoft.aspnetcore.mvc.newtonsoftjson/7.0.4/microsoft.aspnetcore.mvc.newtonsoftjson.7.0.4.nupkg.sha512",
