@@ -26,7 +26,7 @@ namespace Villa_API.Data
                 .RuleFor(x => x.UpdatedDate, f => f.Date.Past());
 
 
-            var villas = villa.Generate(200);
+            var villas = villa.Generate(1000);
             modelBuilder.Entity<Villa>().HasData(villas);
         }
     }

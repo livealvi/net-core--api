@@ -1,35 +1,15 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{90032721-7EFD-44BD-9DCD-78E265CDE146}|https">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Villa_API/Migrations/20230513115253_test.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Villa_API/Repository/VillaRepository.cs">
     <Files>
-      <File FileName="Villa_API/Models/DTO/VillaDTO.cs" Line="1" Column="1" />
-      <File FileName="Villa_API/Models/DTO/VillaCreateDTO.cs" Line="1" Column="1" />
-      <File FileName="Villa_API/Models/DTO/VillaUpdateDTO.cs" Line="1" Column="1" />
-      <File FileName="Villa_API/Controllers/VillaAPIController.cs" Line="1" Column="1" />
-      <File FileName="MappingConfig.cs" Line="6" Column="3" />
-      <File FileName="Villa_API/appsettings.json" Line="10" Column="47" />
-      <File FileName="Villa_API/Migrations/20230513115119_AddNewVilla.cs" Line="19" Column="21" />
-      <File FileName="Villa_API/Migrations/20230513115253_test.cs" Line="24" Column="29" />
+      <File FileName="Villa_API/Repository/VillaRepository.cs" Line="51" Column="30" />
+      <File FileName="Villa_API/Repository/IRepository/IVillaRepository.cs" Line="6" Column="2" />
+      <File FileName="Villa_API/Controllers/VillaAPIController.cs" Line="94" Column="13" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="Villa" expanded="True">
-            <Node name="Villa_API" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True">
-                <Node name="DTO" expanded="True" />
-              </Node>
-              <Node name="appsettings.json" selected="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.Villa__API PreferredExecutionTarget="/Applications/Microsoft Edge.app" />
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
