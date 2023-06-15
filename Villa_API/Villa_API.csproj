@@ -33,6 +33,8 @@
     <None Remove="Migrations\" />
     <None Remove="Repository\" />
     <None Remove="Repository\IRepository\" />
+    <None Remove="Models\DTO\Villa\" />
+    <None Remove="Models\DTO\VillaNumber\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
@@ -42,5 +44,7 @@
     <Folder Include="Migrations\" />
     <Folder Include="Repository\" />
     <Folder Include="Repository\IRepository\" />
+    <Folder Include="Models\DTO\Villa\" />
+    <Folder Include="Models\DTO\VillaNumber\" />
   </ItemGroup>
 </Project>
