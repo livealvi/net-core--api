@@ -13,9 +13,9 @@ namespace Villa_API.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            int id = 1;
+            int Id = 1;
             var villa = new Faker<Villa>().StrictMode(true)
-                .RuleFor(x => x.Id, f => id++)
+                .RuleFor(x => x.Id, f => Id++)
                 .RuleFor(x => x.Name, f => f.Name.FindName())
                 .RuleFor(x => x.Details, f => f.Lorem.Lines())
                 .RuleFor(x => x.ImageURL, f => f.Image.PicsumUrl())

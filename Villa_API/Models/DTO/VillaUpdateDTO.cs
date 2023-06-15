@@ -6,7 +6,7 @@ namespace Villa_API.Models.DTO
     public class VillaUpdateDTO
     {
         [Required]
-        public int Id { get; set; }
+        public int ID { get; set; }
         [Required]
         [MaxLength(30)]
         public string Name { get; set; }

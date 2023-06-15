@@ -143,7 +143,7 @@ namespace Villa_API.Controllers
         {
             try
             {
-                if (updateDTO == null || id != updateDTO.Id) return BadRequest();
+                if (updateDTO == null || id != updateDTO.ID) return BadRequest();
                 Villa model = _mapper.Map<Villa>(updateDTO);
                 await _dbVilla.UpdateAsync(model);
                 _response.StatusCode = HttpStatusCode.NoContent;
