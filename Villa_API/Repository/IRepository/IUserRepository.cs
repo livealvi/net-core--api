@@ -1,5 +1,6 @@
 ﻿using System;
 using Villa_API.Models;
+using Villa_API.Models.DTO;
 using Villa_API.Models.DTO.LocalUser;
 using Villa_API.Models.DTO.User;
 
