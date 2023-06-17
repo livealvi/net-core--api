@@ -62,7 +62,6 @@ namespace Villa_API.Repository
                 Token = tokenHandler.WriteToken(token),
                 User = user
             };
-
             return loginResponseDTO;
         }
 
